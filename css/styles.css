@@ -237,14 +237,61 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: -20px;
 }
 
-.large-search .btn {
+.large-search .btn, .contactBtn {
     background-color: #004B87;
     color: #FFF;
 }
 
-.large-search .btn:hover {
+.large-search .btn:hover, .contactBtn:hover {
     background-color: #64a70b;
+    color: #FFF;
 }
+
+#contact {
+    height: 100%;
+}
+
+.contactForm {
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.contactInput {
+    margin-bottom: 10px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-group {
+    margin: 0;
+}
+
+#connectInfo {
+    margin-bottom: 50px;
+}
+
+#connectSocial {
+    padding-bottom: 20px;
+}
+
+.connectIcons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialIcons {
+    color: #004B87; 
+}
+
+.socialIcons:hover {
+    color: #64A70B;
+}
+
 
 /* ================================================
     Footer
