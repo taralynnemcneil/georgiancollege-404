@@ -195,14 +195,25 @@
 								<ul class="bulletList">
 									<li>Check the URL you have entered for any spelling mistakes and try again.</li>
 									<li>Try one of the links on the left, in the main menu or return to the <a href="http://www.georgiancollege.ca">homepage.</a></li>
-									<li>Search of what you are looking for.</li>
+									<li>Search for what you are looking for.</li>
 								</ul>
 							</article>
 
-							<section>
-								<input type="search" placeholder="What are you looking for?">
-								<a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-							</section>
+							<section class="medium-search row">
+								<section class="search-input col-sm-12">
+									<form class="form-inline">
+										<section class="input-append">
+											<section class="col-sm-10">
+												<input id="new-georgian-search" name="q" class="inputbox form-control" type="text" placeholder="What are you looking for?" aria-label="Search the Georgian College website">
+											</section>
+											<section class="col-sm-2 longBtn">
+												<button role="button" class="btn btn-block searchBtnTwo"><i class="fa fa-search fa-3x" aria-hidden="true"></i>
+												</button>
+											</section>
+										</section>
+									</form>
+								</section>
+							</section> <!-- /.medium-search -->
 
 						</section>
 						<!-- End Search Section -->
@@ -217,7 +228,7 @@
 							<section>
 								<form>
 									<section class="form-group">
-										<textarea name="message" id="message" cols="75" rows="6" placeholder="Your message here..."></textarea>
+										<textarea name="message" id="message" cols="50" rows="6" placeholder="Your message here..."></textarea>
 										<section>
 											<input type="text" placeholder="Enter your name">
 											<input type="text" placeholder="Your email address">
