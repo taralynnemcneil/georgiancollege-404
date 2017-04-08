@@ -1,0 +1,146 @@
+/* ================================================
+    Basic
+================================================ */
+
+body {
+    font-family: Lato, Avenir, sans-serif
+;}
+
+/* ================================================
+    Header
+================================================ */
+
+/* Main Header */
+#mainHeader {
+    background-color: #004B87;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#mainLogo > a > img {
+    margin: 5px 0 15px 0 !important;
+    width: 100%;
+    max-width: 320px;
+}
+
+#mainLogo {
+    position: relative;
+}
+
+#headerSearch {
+    position: relative;
+    top: 7px;
+}
+
+.menu {
+    padding-right: 20px;
+}
+
+.menu > section > a {
+    color: #FFF;
+}
+
+#georgian-search{
+    width:250px;
+    border-radius: 0;
+}
+
+.medium-search {
+    margin-top: 30px;
+}
+
+.medium-search .btn {
+    border-radius: 0 !important;
+}
+
+.searchBtn {
+    width: 126px;
+}
+
+/* Main Nav */
+#mainNav {
+    background-color: #333F48;
+}
+
+#mainNav > .container {
+    height: 100%;
+}
+
+#mainNav > .container > .row {
+    padding: 15px 0;
+}
+
+#mainNav nav ul {
+    list-style: none;
+}
+
+#mainNav nav ul li {
+    display: inline-block;
+}
+
+#mainNav nav ul li a {
+    min-font-size
+    font-size: 17px;
+    line-height: 17px;
+    color: #FFF;
+}
+
+#mainNav nav ul li a:hover {
+    background-color: #004B87;
+}
+
+.navbar {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+}
+
+/* Sub Nav */
+#subNav {
+    background-color: #F1F1F1;
+}
+
+#subNav nav ul li a {
+    padding: 7px;
+    color: #333F48; 
+}
+
+#subNav nav ul li:first-of-type a:hover {
+    background-color: #F1F1F1;
+    color: #333F48;
+    cursor: default;
+}
+
+#subNav nav ul li a:hover {
+    background-color: #64A70B;
+    color: #FFF; 
+}
+
+/* Bread Crumbs */
+.breadcrumb {
+    background-color: #FFF;
+    padding-left: 20px;
+}
+
+/* ================================================
+    Main
+================================================ */
+
+/* Side Nav */
+
+
+/* ================================================
+    Footer
+================================================ */
+#footerBlock {
+    background-color: #004B87;
+}
+
+#copyright {
+    background-color: #333F48;
+}
+
+/* ================================================
+    Media Queries
+================================================ */
